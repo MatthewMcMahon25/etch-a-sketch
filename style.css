@@ -9,19 +9,15 @@ body {
 }
 
 #container {
-    height: 400px;
-    width: 400px;
-    border: 3px solid black;
+    height: 500px;
+    width: 500px;
+    border: 10px solid red;
     display: flex;
     flex-wrap: wrap;
     align-content: start;
 }
 
-/* How do we make this "flexible" so it can fit inside of a container based upon
-a variable grid size*/
 .square {
-    width: 25px;
-    height: 25px;
     background-color: white;
     border: 1px solid black;
     box-sizing: border-box;
