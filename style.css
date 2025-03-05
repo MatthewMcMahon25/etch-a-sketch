@@ -17,6 +17,8 @@ body {
     align-content: start;
 }
 
+/* How do we make this "flexible" so it can fit inside of a container based upon
+a variable grid size*/
 .square {
     width: 25px;
     height: 25px;
