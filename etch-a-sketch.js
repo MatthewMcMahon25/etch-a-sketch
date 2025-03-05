@@ -3,7 +3,7 @@ const container = document.querySelector("#container");
 function createGrid (size) {
     container.innerHTML = "";
 
-    let squareSize = 500 / size;
+    let squareSize = 400 / size;
 
     for (i = 0; i < size * size; i++) {
         const square = document.createElement("div");
